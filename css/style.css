@@ -1,0 +1,528 @@
+@import url("http://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+
+* {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.top-line {
+  height: 44px;
+  background-color: #000;
+  display: flex;
+  flex: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+.top-line a {
+  color: #969696;
+  text-decoration: none;
+  /* text-decoration-color: #969696; */
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.phone-logo {
+  width: 13.36px;
+  height: 13.36px;
+}
+header {
+  height: 80px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+.PORTEN {
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  margin-left: 60px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+.navigation a {
+  color: #969696;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 31px 20px;
+}
+.navigation a:hover {
+  background: #1f1f1f;
+}
+.wraper {
+    width: 1920px;
+    margin: 50px auto;
+}
+.first-scr-img {
+  width: 100%;
+  object-fit: cover;
+}
+.first-scr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.flex {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 160px;
+  margin-bottom: 154px;
+}
+.box {
+  top: 160px;
+  left: 800px;
+  right: 800px;
+  width: 320px;
+  min-height: 320px;
+  padding: 0 25px;
+  border: 4px solid #ffffff;
+}
+.first-scr-text {
+  bottom: 154px;
+  left: 595px;
+  color: #ffffff;
+  width: 730px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  background: none;
+  margin-top: 80px;
+}
+.box h1,
+h3 {
+  text-align: center;
+}
+.box h1 {
+  margin-top: 93px;
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #ffffff;
+}
+.box h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 94px;
+  color: #ffffff;
+}
+.box hr {
+  margin-bottom: 15px;
+  width: 179px;
+  margin-left: 70px;
+}
+.box-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.new-collection {
+  width: 45.8%;
+  max-height: 730px;
+  background-color: #1f1f1f;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  /* flex: 1fr 1fr; */
+  /* background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg), #000000; */
+}
+.new-collection-img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+/* object-fit: scale-down; */
+/* object-fit: fill; */
+/* object-fit: contain; */
+/* object-position: center; */
+/* object-fit: none; */
+/* object-fit: inherit; */
+/* object-fit: initial; */
+object-fit: unset;
+  /* background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg), #000000; */
+}
+.new-collection p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  bottom: 207px;
+}
+.new-collection hr {
+  position: absolute;
+  width: 120px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  bottom: 177px;
+}
+.new-collection button {
+  position: absolute;
+  bottom: 112px;
+  /* color: black; */
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 9px 22px;
+}
+.new-season {
+  background-color: #000000;
+  width: 54.2%;
+  min-height: 723px;
+  float: left;
+}
+.new-season-card {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 260px;
+  min-height: 405px;
+  /* background: #191B1C; */
+  /* padding-bottom: -80px; */
+}
+.new-season p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  width: 376px;
+  height: 39px;
+  left: 332px;
+  top: 1027px;
+}
+.new-season hr {
+  position: absolute;
+  width: 120px;
+  /* height: 0px; */
+  left: 460px;
+  top: 1116px;
+  border: 1px solid #ffffff;
+}
+.new-season-card div {
+  background: #191b1c;
+  width: 260px;
+  height: 325px;
+}
+.new-season-card img {
+  position: absolute;
+  /* margin: -50px 22px 56px 23px; */
+  margin-top: -45px;
+  margin-left: 18px;
+  margin-bottom: -56px;
+
+  margin-right: -23px;
+}
+.new-season-card h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.new-season-card h3 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+  text-align: left;
+}
+.new-season-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 232px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.collection {
+  width: 45%;
+  max-height: 600px;
+  float: left;
+}
+.collection img {
+  /* width: 100%; */
+  object-fit: cover;
+}
+.collection-2018 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  float: right;
+  min-height: 600px;
+  width: 55%;
+  color: #ffffff;
+  /* padding-top: 100px; */
+  text-align: center;
+}
+.collection-2018 h1 {
+  font-family: "Playfair Display";
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.collection-2018 hr {
+  border: 1px solid #ffffff;
+  width: 120px;
+  margin-bottom: 40px;
+  align-self: center;
+}
+.collection-2018 h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  width: 471px;
+  /* text-align: center; */
+  align-self: center;
+  margin-bottom: 73px;
+}
+.collection-2018 button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 9px 22px;
+  margin-left: 355px;
+  margin-right: 355px;
+}
+.clear {
+  clear: both;
+}
+.new-goods {
+  background-color: #000000;
+  height: 1289px;
+  width: 100%;
+  /* margin-top: -160px; */
+  /* text-align: center; */
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* margin-top: -26px; */
+}
+.new-goods h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.new-goods-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 405px;
+  /* margin-right: 405px; */
+  /* flex: 1fr 1fr ; */
+  /* justify-content: center; */
+  width: 1110px;
+  gap: 23px;
+  row-gap: 40px;
+}
+.new-goods hr {
+  width: 120px;
+  border: 1px solid #ffffff;
+  align-self: center;
+  margin-bottom: 81px;
+}
+.our-brands {
+  display: flex;
+  flex-direction: column;
+  height: 362px;
+  background-color: #0f0f0f;
+}
+.our-brands h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.our-brands hr {
+  width: 120px;
+  border: 1px solid #ffffff;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.our-brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* margin-left: 405px; */
+  gap: 30px;
+  justify-content: center;
+}
+.footer {
+  height: 400px;
+  position: relative;
+}
+.footer img {
+  width: 100%;
+}
+.footer-box {
+  position: absolute;
+  display: flex;
+  position: relative;
+  flex: 1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-around;
+  top: -300px;
+  margin-left: 405px;
+  margin-right: 405px;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  width: 350px;
+}
+.footer-left h1,
+.footer-middle h1,
+.footer-right h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.footer-left h3,
+.footer-right h3 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 37px;
+  text-align: left;
+}
+.footer-middle button, .footer-right button {
+  color: #d0d0d0;
+  padding: 10px 20px;
+  background-color: #0f0f0f;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #d0d0d0;
+  cursor: pointer;
+}
+.footer-right input {
+    width: 190px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border: none;
+    /* margin-right: 0; */
+}
+::placeholder {
+    color: #d0d0d0;
+    padding-left: 20px;
+}
+.footer-right button {
+    margin-left: -5px;
+}
+
+
+.last-line {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  flex: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  color: #d0d0d0;
+  margin-top: -5px;
+}
+.last-line h4 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d0d0d0;
+}
+.last-line a {
+  text-decoration-color: #d0d0d0;
+}
