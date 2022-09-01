@@ -1,0 +1,492 @@
+@import url("http://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+
+* {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-style: normal;
+}
+
+.top-line {
+  height: 44px;
+  background-color: #000;
+  display: flex;
+  flex: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+.top-line a,
+span {
+  color: #969696;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.phone-logo {
+  width: 13.36px;
+  vertical-align: middle;
+}
+header {
+  height: 80px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+.PORTEN {
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  margin-left: 60px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+.navigation a {
+  color: #969696;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 31px 20px;
+}
+.navigation a:hover {
+  background: #1f1f1f;
+}
+.wraper {
+  width: 1920px;
+}
+.first-scr-img {
+  width: 100%;
+  object-fit: cover;
+  background: linear-gradient(
+    0deg,
+    rgba(15, 15, 15, 0.5),
+    rgba(15, 15, 15, 0.5)
+  );
+}
+.first-scr {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.flex {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 160px;
+  margin-bottom: 154px;
+}
+.box {
+  top: 160px;
+  left: 800px;
+  right: 800px;
+  width: 320px;
+  min-height: 320px;
+  padding: 0 25px;
+  border: 4px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.first-scr-text {
+  bottom: 154px;
+  color: #ffffff;
+  width: 730px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+.box h1,
+h3 {
+  text-align: center;
+}
+.box h1 {
+  margin-top: 93px;
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+.box h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 94px;
+  color: #ffffff;
+}
+.box hr {
+   margin-top: -14px;
+  margin-bottom: 7px; 
+  width: 179px;
+  align-self: center;
+}
+
+.new-collection {
+  width: 45%;
+  max-height: 730px;
+  background-color: #1f1f1f;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.new-collection p {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  bottom: 207px;
+}
+.new-collection hr {
+  position: absolute;
+  width: 120px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  bottom: 177px;
+}
+.new-collection button {
+  position: absolute;
+  bottom: 112px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 9px 22px;
+}
+.new-season {
+  position: relative;
+  background-color: #000000;
+  width: 55%;
+  min-height: 730px;
+  float: left;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.new-season-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 232px;
+}
+
+.new-season-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 11.5px;
+  height: 405px;
+  margin-bottom: 20px;
+}
+.new-season h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  width: 376px;
+  height: 39px;
+  top: 93px;
+}
+.new-season hr {
+  position: absolute;
+  width: 120px;
+  top: 182px;
+  border: 1px solid #ffffff;
+}
+.new-season-card div {
+  position: relative;
+  background: #191b1c;
+  width: 260px;
+  height: 325px;
+}
+.new-season-card img {
+  position: absolute;
+  margin: 55px 22px 56px 23px;
+}
+.new-season-card h3 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.new-season-card h4 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+  text-align: left;
+}
+.collection {
+  width: 45%;
+  height: 600px;
+  float: left;
+  object-fit: cover;
+  overflow: hidden;
+}
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.collection-2018 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  float: right;
+  height: 600px;
+  width: 55%;
+  color: #ffffff;
+  text-align: center;
+}
+.collection-2018 h2 {
+  font-family: "Playfair Display";
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.collection-2018 hr {
+  border: 1px solid #ffffff;
+  width: 120px;
+  margin-bottom: 40px;
+  align-self: center;
+}
+.collection-2018 h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  width: 471px;
+  align-self: center;
+  margin-bottom: 73px;
+}
+.collection-2018 button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 9px 22px;
+  align-self: center;
+}
+.clear {
+  clear: both;
+}
+.new-goods {
+  position: relative;
+  background-color: #000000;
+  min-height: 1289px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.new-goods h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.new-goods-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 72%;
+  align-self: center;
+  row-gap: 40px;
+  margin-bottom: 50px;
+}
+.new-goods hr {
+  width: 120px;
+  border: 1px solid #ffffff;
+  align-self: center;
+  margin-bottom: 81px;
+}
+.our-brands {
+  display: flex;
+  flex-direction: column;
+  min-height: 362px;
+  background-color: #0f0f0f;
+}
+.our-brands h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.our-brands hr {
+  width: 120px;
+  border: 1px solid #ffffff;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.our-brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.footer {
+  width: 100%;
+  min-height: 400px;
+  max-height: 1200px;
+  position: relative;
+  object-fit: cover;
+}
+.footer img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-box {
+  position: absolute;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 80px;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  width: 350px;
+}
+.footer-left h2,
+.footer-middle h2,
+.footer-right h2 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.footer-left h3,
+.footer-right h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 37px;
+  text-align: left;
+}
+.footer-middle button,
+.footer-right button {
+  color: #d0d0d0;
+  padding: 10px 20px;
+  background-color: #0f0f0f;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #d0d0d0;
+  cursor: pointer;
+}
+.footer-right input {
+  width: 190px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  border: none;
+}
+::placeholder {
+  color: #d0d0d0;
+  padding-left: 20px;
+}
+.footer-right button {
+  margin-left: -5px;
+}
+
+.last-line {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  flex: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  color: #d0d0d0;
+  margin-top: -5px;
+}
+.last-line h4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d0d0d0;
+}
+.last-line a {
+  text-decoration-color: #d0d0d0;
+}
