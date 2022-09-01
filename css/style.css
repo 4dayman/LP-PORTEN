@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Post No Bills Jaffna Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Post No Bills Jaffna Bold"),
+    url("/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Bold.woff")
+      format("woff");
+}
+
 * {
   font-family: "PT Sans", sans-serif;
   margin: 0;
@@ -37,7 +46,7 @@ header {
   justify-content: space-around;
 }
 .PORTEN {
-  font-family: "post no bills jaffna", sans-serif;
+  font-family: "Post No Bills Jaffna Bold", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
@@ -120,7 +129,7 @@ h3 {
 }
 .box h1 {
   margin-top: 93px;
-  font-family: "Post No Bills Jaffna", sans-serif;
+  font-family: "Post No Bills Jaffna Bold", sans-serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 96px;
