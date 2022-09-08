@@ -4,27 +4,48 @@
 
 @media only screen and (max-width: 1560px) {
   .flex {
-    margin-top: 50px;
+    margin-top: 100px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .first-scr {
+    width: 100%;
+    height: 100%;
+  }
+  .first-scr img {
+    object-fit: cover;
+  }
+  .flex {
+    margin-top: 100px;
     margin-bottom: 200px;
   }
   .box {
     width: 220px;
-    min-height: 220px;
+    height: 220px;
+    margin-top: 20px;
   }
+  .box img {
+    padding-top: 70px;
+    width: 185px;
+    margin: 0 auto;
+  }
+
   .box h1 {
-    margin-top: -10px;
+    margin: 0 auto;
   }
-  .box h3 {
-    margin-bottom: 4px;
+  .first-scr-text h3 {
+    width: 100%;
+    margin-top: 40px;
   }
-  .box hr {
-    width: 170px;
-    margin: -14px 0 10px 0;
+  .new-season {
+    min-height: 730px;
   }
-  .first-scr-text {
-    width: 730px;
-    margin-top: 30px;
-  }
+  
+ 
+}
+@media only screen and (max-width: 1419px) {
   .new-collection {
     width: 100%;
     height: 100%;
@@ -47,43 +68,48 @@
     float: none;
     width: 100%;
   }
-}
 
-@media only screen and (max-width: 1110px) {
+
+
+}
+@media only screen and (max-width: 1090px) {
   .footer {
     min-height: 600px;
   }
 }
+@media only screen and (max-width: 1124px) {
+  .footer {
+    min-height: 600px;
+  }
+  .first-scr img {
+    height: 520px;
+  }
+  
+}
 
 @media only screen and (max-width: 992px) {
-  .first-scr-img {
-    min-height: 520px;
+  .first-scr img {
+    height: 520px;
   }
+  .box {
+    width: 220px;
+    height: 220px;
+  }
+
+  .box img {
+    padding-top: 70px;
+    width: 185px;
+  }
+  .first-scr-text h3 {
+    max-width: 600px;
+  }
+
   .footer {
     min-height: 800px;
   }
 }
 
-@media only screen and (max-width: 760px) {
-  .navigation {
-    margin-right: 0px;
-  }
-  .PORTEN {
-    font-size: 36px;
-    color: #ffffff;
-    margin-left: 0px;
-  }
-  .navigation a {
-    font-size: 12px;
-    padding: 31px 10px;
-  }
-  .first-scr-text {
-    width: 70%;
-    margin: 0 10%;
-  }
-}
-
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
   .top-line {
     width: 100%;
   }
@@ -92,62 +118,71 @@
     margin-left: 0px;
     font-size: 8px;
   }
-  .PORTEN {
-    font-size: 26px;
-    margin-left: 20px;
-    margin-right: 10px;
+
+  .flex {
+    margin-top: 20px;
   }
-  .navigation {
-    margin-right: 10px;
+
+  .first-scr-text {
+    width: 70%;
+    margin: 0 10%;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .top-line {
     width: 100%;
   }
-  .navigation a {
+  .top-line a,
+  span {
+    margin-left: 0px;
     font-size: 9px;
-    padding: 27px 5px;
   }
+
   .box {
     margin-bottom: 10px;
   }
-  .first-scr-text {
+  .first-scr-text h3 {
     font-size: 14px;
     line-height: 22px;
   }
   .new-collection p {
     font-size: 30px;
   }
-  .new-season h2 {
+  .new-season  h2 {
     font-size: 30px;
   }
 
-  .new-season-container {
-    height: 410px;
-    overflow: scroll;
-    scroll-behavior: visible;
-  }   
+  .collection {
+    max-height: 350px;
+  }
   .collection-2018 h3 {
     width: 90%;
   }
-  .collection-2018 h2 {
+  .collection-2018  h2 {
     font-size: 30px;
   }
   .new-goods {
-  min-height: 300px;
+    min-height: 300px;
   }
-  .new-goods h2 {
+  .new-goods  h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
-  .new-goods-container {
-    height: 410px;
-    overflow: scroll;
-    scroll-behavior: visible;
-  }
+
 }
 
 @media only screen and (max-width: 375px) {
-  .navigation a {
-    padding: 25px 2px;
+  .top-line a,
+  span {
+    font-size: 8px;
   }
+
+  .first-scr-text h3 {
+    margin-top: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -156,26 +191,13 @@
     margin-left: 0px;
     font-size: 7px;
   }
-  .PORTEN {
-    font-weight: 700;
-    font-size: 26px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .navigation {
-    margin-right: 10px;
-    width: 100%;
-  }
-  .navigation a {
-    font-size: 8px;
-    padding: 24px 3px;
-  }
-  .box {
+   .box {
     margin-bottom: 10px;
   }
   .first-scr-text {
     font-size: 12px;
     line-height: 22px;
+    
   }
   .new-collection p {
     font-size: 25px;

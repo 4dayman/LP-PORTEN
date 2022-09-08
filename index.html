@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -13,6 +14,7 @@
     <link href="http://fonts.cdnfonts.com/css/post-no-bills-jaffna?styles=18992,18991" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/media.css">
     <title>PORTEN</title>
 </head>
@@ -20,43 +22,51 @@
 <body>
     <div class="wrapper">
 
-        <section class="top-line">
-            <div class="top-line-left">
-                <img class="phone-logo" src="img/eva_phone-outline.svg" alt="">
-                <a href="tel:8 (812) 123-45-67">8 (812) 123-45-67</a><span> &nbsp; &#10073; &nbsp; Работаем 7 дней в
-                    неделю &nbsp;
-                    &#10073; &nbsp; 9:00 — 18:00</span>
-            </div>
-            <div class="top-line-right">
-                <img class="phone-logo" src="img/ic_sharp-log-in.svg" alt="">
-                <a href="#"></i> Вход &#47; Регистрация</a>
+        <section class="top-line-container">
+            <div class="top-line">
+                <div class="top-line-left">
+                    <img class="phone-logo" src="img/eva_phone-outline.svg" alt="">
+                    <a href="tel:8 (812) 123-45-67">8 (812) 123-45-67</a><span> &nbsp; &#10073; &nbsp; Работаем 7 дней в
+                        неделю &nbsp;
+                        &#10073; &nbsp; 9:00 — 18:00</span>
+                </div>
+                <div class="top-line-right">
+                    <img class="phone-logo" src="img/ic_sharp-log-in.svg" alt="">
+                    <a href="#"></i> Вход &#47; Регистрация</a>
+                </div>
             </div>
         </section>
 
-        <header>
-            <div>
-                <h2 class="PORTEN">PORTEN</h2>
+        <header class="header">
+            <div class="header_container">
+                <a href="" class="header_logo"><img src="img/PORTEN.svg" alt=""></a>
+                <div class="header_menu menu">
+                    <div class="menu_icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu_body">
+                        <ul class="menu_list">
+                            <li><a href="#" class="menu_link">Понравилось</a></li>
+                            <li><a href="#" class="menu_link">личный кабинет</a></li>
+                            <li><a href="#" class="menu_link">настройки</a></li>
+                            <li><a href="#" class="menu_link"><img src="img/bx_bx-cart.png" alt=""></a></li>
+                            <li><a href="#" class="menu_link"><img src="img/gridicons_search.png" alt=""></a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <nav class="navigation">
-                <a href="#">Понравилось</a>
-                <a href="#">личный кабинет</a>
-                <a href="#">настройки</a>
-                <a href="#"><img src="img/bx_bx-cart.png" alt=""></a>
-                <a href="#"><img src="img/gridicons_search.png" alt=""></a>
-            </nav>
         </header>
 
         <section class="first-scr">
-            <img class="first-scr-img" src="img/Rectangle-3.png" alt="">
+            <img src="img/Rectangle-3.png" alt="">
             <div class="flex">
                 <div class="box">
-                    <h1>PORTEN</h1>
-                    <hr>
+                    <img src="img/PORTEN.svg" alt="">
                     <h3>санкт-петербург</h3>
                 </div>
 
-                <div>
-                    <h3 class="first-scr-text">
+                <div class="first-scr-text">
+                    <h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor
                         pulvinar
                         ut
@@ -80,31 +90,59 @@
         <section class="new-season">
             <h2>СЕЗОН 2020/21</h2>
             <hr>
-            <div class="new-season-container">
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+    
                 </div>
             </div>
+
         </section>
         <div class="clear"></div>
 
@@ -130,71 +168,128 @@
         <section class="new-goods">
             <h2>новые поступления</h2>
             <hr>
-            <div class="new-goods-container">
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+            <div class="slide-1-container swiper">
+                <div class="slide-1-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
-                    </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
-                </div>
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
 
-                <div class="new-season-card">
-                    <div>
-                        <img src="img/62050 1.png" alt="">
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="img/62050 1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="name">Louis XVI ATHOS</h3>
+                                <p class="description">165 000 руб.</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Louis XVI ATHOS</h3>
-                    <h4>165 000 руб.</h4>
+    
                 </div>
-            </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+        </div>
         </section>
 
         <section class="our-brands">
@@ -245,7 +340,9 @@
             <h4>Сделано Figma.info</h4>
         </a>
     </section>
-
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js.map"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
