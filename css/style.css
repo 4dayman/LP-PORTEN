@@ -47,7 +47,7 @@ ul li {
   span {
     color: #969696;
     text-decoration: none;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
